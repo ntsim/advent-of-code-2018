@@ -6,7 +6,7 @@ object Day1Part1 {
   fun solve(input: String): Int = input.lines()
     .filter { it.isNotEmpty() }
     .map { it.toInt() }
-    .sum();
+    .sum()
 }
 
 fun main(args: Array<String>) {

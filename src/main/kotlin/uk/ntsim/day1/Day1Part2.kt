@@ -8,7 +8,7 @@ object Day1Part2 {
       .filter { it.isNotEmpty() }
       .map { it.toInt() }
 
-    val frequencies = mutableSetOf<Int>(0)
+    val frequencies = mutableSetOf(0)
     var frequency = 0
 
     fun iterateLines() {
